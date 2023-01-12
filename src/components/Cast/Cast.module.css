@@ -1,0 +1,35 @@
+.castBox {
+    padding: 20px;
+}
+
+.castList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 15px;
+    list-style: none;
+}
+
+.castItem {
+    width: 100%;
+    height: 400px;
+    flex-basis: calc(100% / 4 - 15px);
+    padding: 5px;
+    color: black;
+    background: #fbf9fa3f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.castImg {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.castText {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}

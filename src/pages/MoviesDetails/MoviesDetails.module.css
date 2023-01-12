@@ -1,0 +1,60 @@
+.detailsBox {
+    display: flex;
+    padding: 10px 20px 20px;
+}
+
+.imgBox {
+    margin-right: 35px;
+    flex-direction: column;
+}
+
+.detailsBtn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(3, 29, 52);
+}
+
+.detailsImg {
+    margin-top: 15px;
+    max-width: 300px;
+    display: block;
+    border-radius: 5px;
+}
+
+.detailsInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 53px;
+}
+
+.detailsTitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.detailsText {
+    font-size: 18px;
+    color: rgb(22, 21, 21);
+}
+
+.detailsText:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.boxLink {
+    padding: 10px 20px 20px;
+}
+
+.infoLink {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(25, 85, 215);
+}
+
+.infoLink:not(:last-of-type) {
+    margin-right: 15px;
+}

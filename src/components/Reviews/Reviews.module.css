@@ -1,0 +1,34 @@
+.reviewsBox {
+    padding: 20px;
+}
+
+.reviewsList {
+    font-size: 18px;
+    color: black;
+    list-style: none;
+}
+
+.reviewsItem:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.reviewsText {
+    font-size: 18px;
+    color: black;
+}
+
+.reviewsText:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.reviewsText:first-of-type {
+    font-weight: 600;
+}
+
+.reviewsText:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.reviewsText:nth-of-type(3) {
+    text-indent: 30px;
+}

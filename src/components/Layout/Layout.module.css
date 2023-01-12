@@ -1,0 +1,25 @@
+.box {
+    min-height: 100vh;
+    font-size: 40px;
+    color: white;
+    padding: 50px;
+}
+
+.nav {
+    padding: 10px;
+    border-bottom: 1px solid #fbf9fa3f;
+}
+
+.link {
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:first-of-type {
+    margin-right: 30px;
+}
+
+.link:active {
+    color: palevioletred;
+}
