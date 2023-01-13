@@ -1,7 +1,7 @@
 import { BiSearchAlt } from 'react-icons/bi';
 import { useState, useEffect } from 'react';
 import MoviesList from '../../components/MoviesList/MoviesList';
-//import { fetchMoviesWithQuery } from '../../apiMovies';
+import { fetchMoviesWithQuery } from '../../API/apiMovies';
 import { useSearchParams, useLocation } from 'react-router-dom';
 import { IconContext } from 'react-icons';
 import style from './Movies.module.css';

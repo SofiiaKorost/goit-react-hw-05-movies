@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchReviews } from '../../apiMovies';
+import { fetchReviews } from '../../API/apiMovies';
 import { useParams } from 'react-router';
 import style from './Reviews.module.css';
 

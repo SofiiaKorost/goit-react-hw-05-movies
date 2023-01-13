@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
-//import { fetchTrending } from '../../apiMovies';
+import { fetchTrending } from '../../API/apiMovies';
 import MoviesList from 'components/MoviesList/MoviesList';
 import style from './Home.module.css';
 import { useLocation } from 'react-router-dom';
